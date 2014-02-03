@@ -59,7 +59,7 @@ public class FliehandlingActivity extends Activity {
 		    		 }
 		    		 edit.setText(null);
 		    		 edit.setText(input);
-		    		 
+		    		 System.out.println("accessed");
 		    		 Toast.makeText(getApplicationContext(),input,4000).show();
 		    		 }catch(FileNotFoundException e){
 		    			 e.printStackTrace();
